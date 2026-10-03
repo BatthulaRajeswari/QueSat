@@ -1,0 +1,118 @@
+{
+  "engine": "numpy reference simulator (NOT Qiskit)",
+  "data": "SYNTHETIC demo data",
+  "runs": [
+    {
+      "region": "Krishna",
+      "scenario": "Water-body Change",
+      "status": "complete",
+      "metrics": {
+        "Classical SVM (RBF)": {
+          "Accuracy": 0.9,
+          "Precision": 0.8889,
+          "Recall": 0.8889,
+          "F1": 0.8889
+        },
+        "Quantum Kernel + QSVM": {
+          "Accuracy": 0.95,
+          "Precision": 0.9286,
+          "Recall": 0.963,
+          "F1": 0.9455
+        }
+      },
+      "summary": "On the same held-out test set (n = 60), the classical SVM reached accuracy 0.900 and the quantum-kernel SVM reached 0.950 (difference +0.050; F1 0.889 vs 0.945). This is a single train/test split on one dataset, so it does not support a general statement about either approach.",
+      "map_model": "Quantum Kernel + QSVM",
+      "scene": {
+        "cells": 2304,
+        "detected_pct": 16.05902777777778,
+        "scene_change_pct": 12.803819444444445,
+        "cell_accuracy_pct": 93.359375,
+        "detected_cells": 370
+      }
+    },
+    {
+      "region": "Guntur",
+      "scenario": "Agricultural Change",
+      "status": "complete",
+      "metrics": {
+        "Classical SVM (RBF)": {
+          "Accuracy": 0.7833,
+          "Precision": 0.7391,
+          "Recall": 0.7083,
+          "F1": 0.7234
+        },
+        "Quantum Kernel + QSVM": {
+          "Accuracy": 0.7833,
+          "Precision": 0.7391,
+          "Recall": 0.7083,
+          "F1": 0.7234
+        }
+      },
+      "summary": "On the same held-out test set (n = 60), the classical SVM reached accuracy 0.783 and the quantum-kernel SVM reached 0.783 (difference +0.000; F1 0.723 vs 0.723). This is a single train/test split on one dataset, so it does not support a general statement about either approach.",
+      "map_model": "Quantum Kernel + QSVM",
+      "scene": {
+        "cells": 2304,
+        "detected_pct": 30.12152777777778,
+        "scene_change_pct": 27.56076388888889,
+        "cell_accuracy_pct": 89.88715277777779,
+        "detected_cells": 694
+      }
+    },
+    {
+      "region": "Godavari Region",
+      "scenario": "Flood-related Change",
+      "status": "complete",
+      "metrics": {
+        "Classical SVM (RBF)": {
+          "Accuracy": 0.9833,
+          "Precision": 1.0,
+          "Recall": 0.9655,
+          "F1": 0.9825
+        },
+        "Quantum Kernel + QSVM": {
+          "Accuracy": 0.9667,
+          "Precision": 0.9655,
+          "Recall": 0.9655,
+          "F1": 0.9655
+        }
+      },
+      "summary": "On the same held-out test set (n = 60), the classical SVM reached accuracy 0.983 and the quantum-kernel SVM reached 0.967 (difference -0.017; F1 0.982 vs 0.966). This is a single train/test split on one dataset, so it does not support a general statement about either approach.",
+      "map_model": "Quantum Kernel + QSVM",
+      "scene": {
+        "cells": 2304,
+        "detected_pct": 15.928819444444445,
+        "scene_change_pct": 10.807291666666668,
+        "cell_accuracy_pct": 93.48958333333334,
+        "detected_cells": 367
+      }
+    },
+    {
+      "region": "Vijayawada Region",
+      "scenario": "Land-cover Change",
+      "status": "complete",
+      "metrics": {
+        "Classical SVM (RBF)": {
+          "Accuracy": 0.8667,
+          "Precision": 0.7941,
+          "Recall": 0.9643,
+          "F1": 0.871
+        },
+        "Quantum Kernel + QSVM": {
+          "Accuracy": 0.8667,
+          "Precision": 0.7941,
+          "Recall": 0.9643,
+          "F1": 0.871
+        }
+      },
+      "summary": "On the same held-out test set (n = 60), the classical SVM reached accuracy 0.867 and the quantum-kernel SVM reached 0.867 (difference +0.000; F1 0.871 vs 0.871). This is a single train/test split on one dataset, so it does not support a general statement about either approach.",
+      "map_model": "Quantum Kernel + QSVM",
+      "scene": {
+        "cells": 2304,
+        "detected_pct": 21.961805555555554,
+        "scene_change_pct": 19.18402777777778,
+        "cell_accuracy_pct": 93.75,
+        "detected_cells": 506
+      }
+    }
+  ]
+}

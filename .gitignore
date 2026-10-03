@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+.streamlit/secrets.toml
+*.token
+qiskit-ibm.json
+outputs/*
+!outputs/.gitkeep
+data/real/*
+!data/real/README.md
+.DS_Store
